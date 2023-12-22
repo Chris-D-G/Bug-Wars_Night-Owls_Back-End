@@ -1,5 +1,5 @@
 #!/bin/bash
-export PGPASSWORD='[insert pgpassword here]'
+export PGPASSWORD='postgres1'
 BASEDIR=$(dirname $0)
 DATABASE=bug_wars
 psql -U postgres -f "$BASEDIR/dropdb.sql" &&
